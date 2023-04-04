@@ -1,0 +1,22 @@
+// @keyframes email {
+//     0% {color: cyan;}
+//     50% {color: yellow;}
+//     100% {color: magenta;}
+// }
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+
+    &-text {
+        animation-name: email;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+
+        font-size: 60px;
+    }
+}

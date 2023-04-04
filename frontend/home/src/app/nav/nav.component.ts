@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav.component.less']
 })
 export class NavComponent {
-
+  title = "Adam Timpson"
 }
