@@ -8,6 +8,7 @@ import { MainComponent } from './main/main.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { IonicModule } from '@ionic/angular';
+import { SlideComponent } from './slide/slide.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { IonicModule } from '@ionic/angular';
     NavComponent,
     MainComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    SlideComponent
   ],
   imports: [
     BrowserModule,
